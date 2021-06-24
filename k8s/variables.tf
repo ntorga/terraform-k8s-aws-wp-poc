@@ -1,0 +1,12 @@
+variable "eks-endpoint" {}
+variable "eks-ca" {}
+variable "eks-token" {}
+variable "eks-cluster-name" {}
+variable "stage" {}
+variable "stage-domain" {}
+variable "aws-region" {}
+variable "security-group-id" {}
+variable "kubewpdb-host" {}
+variable "kubewpdb-name" {}
+variable "kubewpdb-creds" {}
+variable "efs-wp-content-id" {}

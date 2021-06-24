@@ -1,0 +1,11 @@
+#
+## NGINX Ingress Controller Chart Values Overrides
+#
+controller:
+  podAnnotations: {
+    fluentbit.io/parser_stdout: nginx-ingress-controller
+  }
+
+  replicaCount: 3
+
+  minAvailable: 3
